@@ -1,0 +1,31 @@
+<h1>Simple Calculator</h1>
+<p>Perform all operations using JavaScript</p>
+<p id="add"></p>
+<p id="sub"></p>
+<p id="mul"></p>
+<p id="div"></p>
+
+<script>
+  // PART 1: two variables
+  // Make num1 with the value 10 and num2 with the value 2.
+  let num1 = 10;
+  let num2 = 2;
+
+  // PART 2: the calculations
+  // Make four variables: add, sub, mul and div.
+  // Each one holds the answer of num1 and num2 with +, -, * or /.
+  let add = num1 + num2;
+  let sub = num1 - num2;
+  let mul = num1 * num2;
+  let div = num1 / num2;
+
+  // PART 3: show the answers
+  // Use document.getElementById() and .innerHTML to show each answer
+  // in the paragraph with the matching id.
+  // Start each line with: The added value is: / The subtracted value is: /
+  // The multiplied value is: / The divided value is:
+  document.getElementById("add").innerHTML = "The added value is: " + add;
+  document.getElementById("sub").innerHTML = "The subtracted value is: " + sub;
+  document.getElementById("mul").innerHTML = "The multiplied value is: " + mul;
+  document.getElementById("div").innerHTML = "The divided value is: " + div;
+</script>
